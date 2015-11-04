@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TDImagePickerController.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +16,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)showImagePicker:(id)sender {
+    TDImagePickerController *ic = [[TDImagePickerController alloc] initWithMaxNum:5 andCallback:^(NSArray *images) {
+        NSLog(@"%lu",images.count);
+    }];
+    UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:ic];
+    [self presentViewController:nav animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 @end

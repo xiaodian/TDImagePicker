@@ -15,6 +15,14 @@
 		3F2665CA1BE9EB1D00100C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2665C81BE9EB1D00100C75 /* LaunchScreen.storyboard */; };
 		3F2665D51BE9EB1D00100C75 /* TDImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665D41BE9EB1D00100C75 /* TDImagePickerTests.m */; };
 		3F2665E01BE9EB1D00100C75 /* TDImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665DF1BE9EB1D00100C75 /* TDImagePickerUITests.m */; };
+		3F2665FE1BE9EBE900100C75 /* TDAssetGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665F31BE9EBE900100C75 /* TDAssetGroupCell.m */; };
+		3F2665FF1BE9EBE900100C75 /* TDAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665F51BE9EBE900100C75 /* TDAssetsViewCell.m */; };
+		3F2666001BE9EBE900100C75 /* TDImageGroupPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665F71BE9EBE900100C75 /* TDImageGroupPickerView.m */; };
+		3F2666011BE9EBE900100C75 /* TDImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665F91BE9EBE900100C75 /* TDImagePickerController.m */; };
+		3F2666021BE9EBE900100C75 /* TDImagePreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665FB1BE9EBE900100C75 /* TDImagePreviewController.m */; };
+		3F2666031BE9EBE900100C75 /* TDSignAssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2665FD1BE9EBE900100C75 /* TDSignAssetsCell.m */; };
+		3F2666071BE9ED9600100C75 /* UIView+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2666061BE9ED9600100C75 /* UIView+Position.m */; };
+		3F26660A1BE9FB4D00100C75 /* TDColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2666091BE9FB4D00100C75 /* TDColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,23 @@
 		3F2665DB1BE9EB1D00100C75 /* TDImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F2665DF1BE9EB1D00100C75 /* TDImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDImagePickerUITests.m; sourceTree = "<group>"; };
 		3F2665E11BE9EB1D00100C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F2665F21BE9EBE900100C75 /* TDAssetGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAssetGroupCell.h; sourceTree = "<group>"; };
+		3F2665F31BE9EBE900100C75 /* TDAssetGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAssetGroupCell.m; sourceTree = "<group>"; };
+		3F2665F41BE9EBE900100C75 /* TDAssetsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAssetsViewCell.h; sourceTree = "<group>"; };
+		3F2665F51BE9EBE900100C75 /* TDAssetsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAssetsViewCell.m; sourceTree = "<group>"; };
+		3F2665F61BE9EBE900100C75 /* TDImageGroupPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDImageGroupPickerView.h; sourceTree = "<group>"; };
+		3F2665F71BE9EBE900100C75 /* TDImageGroupPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDImageGroupPickerView.m; sourceTree = "<group>"; };
+		3F2665F81BE9EBE900100C75 /* TDImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDImagePickerController.h; sourceTree = "<group>"; };
+		3F2665F91BE9EBE900100C75 /* TDImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDImagePickerController.m; sourceTree = "<group>"; };
+		3F2665FA1BE9EBE900100C75 /* TDImagePreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDImagePreviewController.h; sourceTree = "<group>"; };
+		3F2665FB1BE9EBE900100C75 /* TDImagePreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDImagePreviewController.m; sourceTree = "<group>"; };
+		3F2665FC1BE9EBE900100C75 /* TDSignAssetsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSignAssetsCell.h; sourceTree = "<group>"; };
+		3F2665FD1BE9EBE900100C75 /* TDSignAssetsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSignAssetsCell.m; sourceTree = "<group>"; };
+		3F2666041BE9ED3100100C75 /* TDimagePickerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TDimagePickerUtils.h; sourceTree = "<group>"; };
+		3F2666051BE9ED9600100C75 /* UIView+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Position.h"; sourceTree = "<group>"; };
+		3F2666061BE9ED9600100C75 /* UIView+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Position.m"; sourceTree = "<group>"; };
+		3F2666081BE9FB4D00100C75 /* TDColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDColor.h; sourceTree = "<group>"; };
+		3F2666091BE9FB4D00100C75 /* TDColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +126,7 @@
 		3F2665B91BE9EB1D00100C75 /* TDImagePicker */ = {
 			isa = PBXGroup;
 			children = (
+				3F2665F11BE9EBE900100C75 /* TDImagePicker */,
 				3F2665BD1BE9EB1D00100C75 /* AppDelegate.h */,
 				3F2665BE1BE9EB1D00100C75 /* AppDelegate.m */,
 				3F2665C01BE9EB1D00100C75 /* ViewController.h */,
@@ -138,6 +164,30 @@
 				3F2665E11BE9EB1D00100C75 /* Info.plist */,
 			);
 			path = TDImagePickerUITests;
+			sourceTree = "<group>";
+		};
+		3F2665F11BE9EBE900100C75 /* TDImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				3F2666081BE9FB4D00100C75 /* TDColor.h */,
+				3F2666091BE9FB4D00100C75 /* TDColor.m */,
+				3F2666051BE9ED9600100C75 /* UIView+Position.h */,
+				3F2666061BE9ED9600100C75 /* UIView+Position.m */,
+				3F2665F21BE9EBE900100C75 /* TDAssetGroupCell.h */,
+				3F2665F31BE9EBE900100C75 /* TDAssetGroupCell.m */,
+				3F2665F41BE9EBE900100C75 /* TDAssetsViewCell.h */,
+				3F2665F51BE9EBE900100C75 /* TDAssetsViewCell.m */,
+				3F2665F61BE9EBE900100C75 /* TDImageGroupPickerView.h */,
+				3F2665F71BE9EBE900100C75 /* TDImageGroupPickerView.m */,
+				3F2665F81BE9EBE900100C75 /* TDImagePickerController.h */,
+				3F2665F91BE9EBE900100C75 /* TDImagePickerController.m */,
+				3F2665FA1BE9EBE900100C75 /* TDImagePreviewController.h */,
+				3F2665FB1BE9EBE900100C75 /* TDImagePreviewController.m */,
+				3F2665FC1BE9EBE900100C75 /* TDSignAssetsCell.h */,
+				3F2665FD1BE9EBE900100C75 /* TDSignAssetsCell.m */,
+				3F2666041BE9ED3100100C75 /* TDimagePickerUtils.h */,
+			);
+			path = TDImagePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +324,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F2665C21BE9EB1D00100C75 /* ViewController.m in Sources */,
+				3F2666031BE9EBE900100C75 /* TDSignAssetsCell.m in Sources */,
 				3F2665BF1BE9EB1D00100C75 /* AppDelegate.m in Sources */,
+				3F2666071BE9ED9600100C75 /* UIView+Position.m in Sources */,
+				3F26660A1BE9FB4D00100C75 /* TDColor.m in Sources */,
+				3F2666001BE9EBE900100C75 /* TDImageGroupPickerView.m in Sources */,
+				3F2666011BE9EBE900100C75 /* TDImagePickerController.m in Sources */,
+				3F2665FE1BE9EBE900100C75 /* TDAssetGroupCell.m in Sources */,
 				3F2665BC1BE9EB1D00100C75 /* main.m in Sources */,
+				3F2666021BE9EBE900100C75 /* TDImagePreviewController.m in Sources */,
+				3F2665FF1BE9EBE900100C75 /* TDAssetsViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
